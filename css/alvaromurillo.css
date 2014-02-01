@@ -18,3 +18,16 @@ body {
 .networks a:visited, .networks a {
     color: #424242;
 }
+
+.btn-app-store {
+    background-image: url("../images/app-store-badge.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 135px !important;
+    height: 40px !important;
+    display: block;
+}
+
+.apps.container {
+    margin-top: 20px;
+}
