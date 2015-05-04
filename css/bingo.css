@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(220,220,220);
+}
+
+#icon-container {
+    margin: 40px 0px 0px 0px;
+}
+
+#app-name-container {
+    margin: 0px 0px 10px 0px;
+}
+
+#app-screenshot-container {
+    margin: 40px 0px 20px 0px;
+}
+
+#download-icon-container {
+    margin: 20px 0px 40px 0px;
+}
