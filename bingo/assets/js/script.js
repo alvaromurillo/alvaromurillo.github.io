@@ -27,7 +27,7 @@
 				if ([8, 17, 26].includes(i) && qrAdded == false) {
 					qrAdded = true
 					$('#cell'+i).addClass("qrCode");
-					jQuery('#cell'+i).qrcode({ text	: card });
+					jQuery('#cell'+i).qrcode({ text: card, correctLevel: 0 });
 					var canvas = $('canvas')[0];
 					$('#cell'+i).css("background-image", 'url(' + canvas.toDataURL() + ')');
 					canvas.remove();
