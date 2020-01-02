@@ -41,12 +41,10 @@
 	}
 
 	$('td').click(function() {
-		if (!this.classList.contains("empty")) {
-			if (this.classList.contains("selected")) {
-				this.classList.remove("selected");
-			} else {
-				this.classList.add("selected");
-			}
+		if (!this.classList.contains("empty") && !this.classList.contains("qrCode")) {
+			var toggle = this.style;
+			toggle.backgroundColor = toggle.backgroundColor ? "" : "crimson";
+			toggle.color = toggle.color ? "" : "white";
 		}		
 	 });
  });
