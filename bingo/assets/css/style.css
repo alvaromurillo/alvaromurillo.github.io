@@ -48,5 +48,6 @@ td.qrCode {
 	background-color: white;
 	cursor: default;
 	background-repeat:no-repeat ;
-	background-size:100% 100%;
+	background-size:90% 90%;
+	background-position: center;
 }
